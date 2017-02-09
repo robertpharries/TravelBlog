@@ -1,26 +1,30 @@
 ﻿body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  height: 500px;
+  background-color: white;
 }
 
 md-toolbar {
     color: white;
-    background-color: darkred;
+    background-color: rgba(108, 100, 139,1);
 }
 
-.example-sidenav-content {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+md-sidenav {
+    padding: 10px;
+    background-color: rgba(107, 186, 167,1);
+    min-height: 100%;
+    padding: 50px;
 }
 
-.example-sidenav {
-  padding: 20px;
+.cont-div {
+    padding: 4px;
+    padding-top: 48px;
 }
 
-.example-container {
-  width: 500px;
-  height: 300px;
+.md-sidenav-shown {
+    background-color: rgba(0,0,0,0.50);
+}
+
+.menu-btn {
+    min-width: 20px;
 }
