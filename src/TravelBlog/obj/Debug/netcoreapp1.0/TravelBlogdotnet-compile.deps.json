@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "070007aa67e6e878aa93389632aecf08b10a9f0e"
+    "signature": "0a26d71158be6ea82f096d7f1c5c20d04d959256"
   },
   "compilationOptions": {
     "defines": [
@@ -21,7 +21,9 @@
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.TypeScript.MSBuild": "2.1.5",
+          "Microsoft.TypeScript.Compiler": "2.1.5"
         },
         "compile": {
           "TravelBlog.dll": {}
@@ -589,6 +591,8 @@
       },
       "Microsoft.NETCore.Targets/1.0.1": {},
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {},
+      "Microsoft.TypeScript.Compiler/2.1.5": {},
+      "Microsoft.TypeScript.MSBuild/2.1.5": {},
       "Microsoft.VisualBasic/10.0.1": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -1978,7 +1982,9 @@
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.TypeScript.MSBuild": "2.1.5",
+          "Microsoft.TypeScript.Compiler": "2.1.5"
         },
         "runtime": {
           "TravelBlog.dll": {}
@@ -2543,6 +2549,8 @@
       },
       "Microsoft.NETCore.Targets/1.0.1": {},
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {},
+      "Microsoft.TypeScript.Compiler/2.1.5": {},
+      "Microsoft.TypeScript.MSBuild/2.1.5": {},
       "Microsoft.VisualBasic/10.0.1": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -4013,6 +4021,16 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-SaToCvvsGMxTgtLv/BrFQ5IFMPRE1zpWbnqbpwykJa8W5XiX82CXI6K2o7yf5xS7EP6t/JzFLV0SIDuWpvBZVw=="
+    },
+    "Microsoft.TypeScript.Compiler/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ea4QwtdOtZbo6dTzcRfiPJrjX4T0irnkFyqTeMgpyqsWFBkyE9atuhlFqERbFe3QIZjGmED+yM2g160TKevaQ=="
+    },
+    "Microsoft.TypeScript.MSBuild/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgoZJG7hBm63gcYMLTzv/8nSipCFw/s2c5s27qNRd8EhP4vfP5KsL7lu9Zd9HcSBIeqlf9w1mK4giy0PhJ8u9A=="
     },
     "Microsoft.VisualBasic/10.0.1": {
       "type": "package",
