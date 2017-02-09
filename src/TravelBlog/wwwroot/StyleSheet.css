@@ -1,0 +1,26 @@
+﻿body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  height: 500px;
+}
+
+md-toolbar {
+    color: white;
+    background-color: darkred;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+}
