@@ -6,14 +6,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 const core_1 = require("@angular/core");
-let AppComponent = class AppComponent {
+let NextComponent = class NextComponent {
 };
-AppComponent = __decorate([
+NextComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
+        selector: 'my-about',
         template: `
+<h2>eshayyyyyyyyyyyy</h2>
 
 `
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
+], NextComponent);
+exports.NextComponent = NextComponent;

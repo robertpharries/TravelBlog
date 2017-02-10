@@ -1,11 +1,11 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-sidenav',
+    selector: 'my-about',
     template: `
+<h2>esh</h2>
 
 `
 })
-export class SideNavComponent {
 
-}
+export class AboutComponent { }

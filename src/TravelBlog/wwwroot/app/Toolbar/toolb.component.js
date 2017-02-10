@@ -6,14 +6,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 const core_1 = require("@angular/core");
-let SideNavComponent = class SideNavComponent {
+let ToolbarComponent = class ToolbarComponent {
 };
-SideNavComponent = __decorate([
+ToolbarComponent = __decorate([
     core_1.Component({
-        selector: 'my-sidenav',
-        template: `
-
-`
+        moduleId: module.id,
+        selector: 'my-tb',
+        templateUrl: './toolb.html'
     })
-], SideNavComponent);
-exports.SideNavComponent = SideNavComponent;
+], ToolbarComponent);
+exports.ToolbarComponent = ToolbarComponent;

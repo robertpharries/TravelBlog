@@ -6,27 +6,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 const core_1 = require("@angular/core");
-let ToolbarComponent = class ToolbarComponent {
+let AboutComponent = class AboutComponent {
 };
-ToolbarComponent = __decorate([
+AboutComponent = __decorate([
     core_1.Component({
-        selector: 'my-tb',
+        selector: 'my-about',
         template: `
-<md-sidenav-layout fullscreen>
-
-  <md-sidenav #start mode="over">
-asdfasdfasdfasdf
-  </md-sidenav>
-
-  <md-toolbar>
-    <button md-button style="min-width: 42px; min-height: 36px; padding: 0;" (click)="start.toggle()"><i class="material-icons">menu</i></button>
-    <span style="flex: 1 1 auto; text-align: center;">ROFL</span>
-    <span class="demo-fill-remaining"></span>
-  </md-toolbar>
-
-</md-sidenav-layout>
+<h2>esh</h2>
 
 `
     })
-], ToolbarComponent);
-exports.ToolbarComponent = ToolbarComponent;
+], AboutComponent);
+exports.AboutComponent = AboutComponent;

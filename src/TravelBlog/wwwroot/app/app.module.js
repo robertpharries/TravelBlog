@@ -9,14 +9,17 @@ const core_1 = require("@angular/core");
 const platform_browser_1 = require("@angular/platform-browser");
 const material_1 = require("@angular/material");
 const app_component_1 = require("./app.component");
-const toolb_component_1 = require("./toolb.component");
+const toolb_component_1 = require("./Toolbar/toolb.component");
+const about_component_1 = require("./about.component");
+const next_component_1 = require("./next.component");
+const app_router_1 = require("./app.router");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [material_1.MaterialModule.forRoot(), platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, toolb_component_1.ToolbarComponent],
-        bootstrap: [app_component_1.AppComponent, toolb_component_1.ToolbarComponent]
+        imports: [material_1.MaterialModule.forRoot(), platform_browser_1.BrowserModule, app_router_1.routes],
+        declarations: [toolb_component_1.ToolbarComponent, about_component_1.AboutComponent, next_component_1.NextComponent, app_component_1.AppComponent],
+        bootstrap: [toolb_component_1.ToolbarComponent]
     })
 ], AppModule);
 exports.AppModule = AppModule;

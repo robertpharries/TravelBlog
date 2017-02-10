@@ -1,5 +1,7 @@
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\about.component.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.component.js
-C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\toolb.component.js
-C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\sidenav.component.js
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\Toolbar\toolb.component.js
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\next.component.js
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.router.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.module.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\main.js

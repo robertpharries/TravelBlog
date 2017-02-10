@@ -12,6 +12,7 @@
     "@angular/platform-browser-dynamic": "~2.0.2",
     "@angular/router": "~3.0.2",
     "@angular/upgrade": "~2.0.2",
+    "@types/node": "^7.0.5",
     "angular-in-memory-web-api": "0.1.13",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
@@ -21,9 +22,10 @@
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.5",
     "del": "^2.2.2",
     "gulp": "3.9.1",
-    "@types/core-js": "^0.9.35",
     "typescript": "^2.0.3"
   }
 }
