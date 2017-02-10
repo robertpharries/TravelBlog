@@ -1,12 +1,17 @@
 "use strict";
 const router_1 = require("@angular/router");
-const app_component_1 = require("./app.component");
 const about_component_1 = require("./About/about.component");
 const next_component_1 = require("./next.component");
+const app_component_1 = require("./app.component");
+const index_1 = require("./login/index");
+const index_2 = require("./register/index");
+const index_3 = require("./_guards/index");
 exports.router = [
-    { path: '', redirectTo: 'app', pathMatch: 'full' },
-    { path: 'app', component: app_component_1.AppComponent },
+    { path: '', component: app_component_1.AppComponent, canActivate: [index_3.AuthGuard] },
+    { path: 'login', component: index_1.LoginComponent },
+    { path: 'register', component: index_2.RegisterComponent },
     { path: 'about', component: about_component_1.AboutComponent },
-    { path: 'next', component: next_component_1.NextComponent },
+    { path: 'next', component: next_component_1.NextComponent, canActivate: [index_3.AuthGuard] },
+    { path: '**', redirectTo: '' }
 ];
 exports.routes = router_1.RouterModule.forRoot(exports.router);

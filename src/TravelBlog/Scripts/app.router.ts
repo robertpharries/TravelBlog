@@ -1,15 +1,21 @@
 ﻿import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AppComponent } from './app.component';
 import { AboutComponent } from './About/about.component';
 import { NextComponent } from './next.component';
+import { AppComponent } from './app.component';
+
+import { LoginComponent } from './login/index';
+import { RegisterComponent } from './register/index';
+import { AuthGuard } from './_guards/index';
 
 export const router: Routes = [
-    { path: '', redirectTo: 'app', pathMatch: 'full' },
-    { path: 'app', component: AppComponent },
+    { path: '', component: AppComponent, canActivate: [AuthGuard] },
+    { path: 'login', component: LoginComponent },
+    { path: 'register', component: RegisterComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'next', component: NextComponent },
+    { path: 'next', component: NextComponent, canActivate: [AuthGuard] },
+    { path: '**', redirectTo: '' }
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);
