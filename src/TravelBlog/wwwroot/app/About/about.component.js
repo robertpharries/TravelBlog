@@ -10,11 +10,9 @@ let AboutComponent = class AboutComponent {
 };
 AboutComponent = __decorate([
     core_1.Component({
+        moduleId: module.id,
         selector: 'my-about',
-        template: `
-<h2>esh</h2>
-
-`
+        templateUrl: "./about.html"
     })
 ], AboutComponent);
 exports.AboutComponent = AboutComponent;

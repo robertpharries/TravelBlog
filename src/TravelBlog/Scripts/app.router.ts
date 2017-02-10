@@ -2,7 +2,7 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about.component';
+import { AboutComponent } from './About/about.component';
 import { NextComponent } from './next.component';
 
 export const router: Routes = [

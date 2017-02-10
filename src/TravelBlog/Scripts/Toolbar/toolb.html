@@ -1,53 +1,55 @@
-﻿<md-sidenav-layout fullscreen>
-
-    <md-sidenav #start mode="over">
-        <header>
-            <h1>xd</h1>
-        </header>
-        <nav>
-            <h3 class="nav-header">General</h3>
-            <ul>
-                <li>
-                    <a (click)="start.close()" routerLink="about">About</a>
-                </li>
-                <li>
-                    <a (click)="start.close()" routerLink="next">Next</a>
-                </li>
-                <li>
-                    <a (click)="start.close()" routerLink="about">About</a>
-                </li>
-                <li>
-                    <a (click)="start.close()" routerLink="next">Next</a>
-                </li>
-            </ul>
-            <h3 class="nav-header">General</h3>
-            <ul>
-                <li>
-                    <a (click)="start.close()" routerLink="about">About</a>
-                </li>
-                <li>
-                    <a (click)="start.close()" routerLink="next">Next</a>
-                </li>
-            </ul>
-        </nav>
-        <!--<ul class="nav navbar-nav">
-            <li>
-                <a (click)="start.close()" href="#" [routerLink]="['/about']" >About</a>
-            </li>
-            <li>
-                <a (click)="start.close()" routerLink="next">Services</a>
-            </li>
-        </ul>-->
-    </md-sidenav>
-
+﻿<div style="position: fixed; width: 100%; height:48px; z-index:99;">
     <md-toolbar>
         <button md-button style="min-width: 42px; min-height: 36px; padding: 0;" (click)="start.toggle()"><i class="material-icons">menu</i></button>
         <span style="flex: 1 1 auto; text-align: center;">ROFL</span>
         <span class="demo-fill-remaining"></span>
     </md-toolbar>
+</div>
+<div>
+    <md-sidenav-layout fullscreen>
+        <md-sidenav #start mode="over">
+            <header>
+                <h1>xd</h1>
+            </header>
+            <nav>
+                <h3 class="nav-header">General</h3>
+                <ul>
+                    <li>
+                        <a (click)="start.close()" routerLink="about">About</a>
+                    </li>
+                    <li>
+                        <a (click)="start.close()" routerLink="next">Next</a>
+                    </li>
+                    <li>
+                        <a (click)="start.close()" routerLink="about">About</a>
+                    </li>
+                    <li>
+                        <a (click)="start.close()" routerLink="next">Next</a>
+                    </li>
+                </ul>
+                <h3 class="nav-header">General</h3>
+                <ul>
+                    <li>
+                        <a (click)="start.close()" routerLink="about">About</a>
+                    </li>
+                    <li>
+                        <a (click)="start.close()" routerLink="next">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--<ul class="nav navbar-nav">
+                <li>
+                    <a (click)="start.close()" href="#" [routerLink]="['/about']" >About</a>
+                </li>
+                <li>
+                    <a (click)="start.close()" routerLink="next">Services</a>
+                </li>
+            </ul>-->
+        </md-sidenav>
 
-    <div class="cont-div">
-        <router-outlet></router-outlet>
-    </div>
+        <div class="cont-div">
+            <router-outlet></router-outlet>
+        </div>
 
-</md-sidenav-layout>
+    </md-sidenav-layout>
+</div>

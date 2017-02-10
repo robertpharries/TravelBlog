@@ -1,11 +1,9 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-about',
-    template: `
-<h2>esh</h2>
-
-`
+    templateUrl: "./about.html"
 })
 
 export class AboutComponent { }

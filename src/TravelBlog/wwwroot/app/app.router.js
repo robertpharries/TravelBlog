@@ -1,7 +1,7 @@
 "use strict";
 const router_1 = require("@angular/router");
 const app_component_1 = require("./app.component");
-const about_component_1 = require("./about.component");
+const about_component_1 = require("./About/about.component");
 const next_component_1 = require("./next.component");
 exports.router = [
     { path: '', redirectTo: 'app', pathMatch: 'full' },
