@@ -10,7 +10,7 @@ import { RegisterComponent } from './register/index';
 import { AuthGuard } from './_guards/index';
 
 export const router: Routes = [
-    { path: '', component: AboutComponent, canActivate: [AuthGuard] },
+    { path: '', component: AppComponent, canActivate: [AuthGuard] },
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
     { path: 'about', component: AboutComponent },

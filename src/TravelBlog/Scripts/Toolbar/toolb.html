@@ -27,30 +27,24 @@
                         <a (click)="start.close()" routerLink="next">Next</a>
                     </li>
                 </ul>
-                <h3 class="nav-header">Account</h3>
-                <!--If logged in-->
-                <div *ngIf="checkLogin()">
-                    <ul>
-                        <li>
-                            <a (click)="start.close()" routerLink="login">Logout</a>
-                        </li>
-                        <li>
-                            <a (click)="start.close()" routerLink="next">Account Settings</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--If not logged in-->
-                <div *ngIf="!checkLogin()">
-                    <ul>
-                        <li>
-                            <a (click)="start.close()" routerLink="login">Login</a>
-                        </li>
-                        <li>
-                            <a (click)="start.close()" routerLink="register">Register</a>
-                        </li>
-                    </ul>
-                </div>
+                <h3 class="nav-header">General</h3>
+                <ul>
+                    <li>
+                        <a (click)="start.close()" routerLink="about">About</a>
+                    </li>
+                    <li>
+                        <a (click)="start.close()" routerLink="next">Next</a>
+                    </li>
+                </ul>
             </nav>
+            <!--<ul class="nav navbar-nav">
+                <li>
+                    <a (click)="start.close()" href="#" [routerLink]="['/about']" >About</a>
+                </li>
+                <li>
+                    <a (click)="start.close()" routerLink="next">Services</a>
+                </li>
+            </ul>-->
         </md-sidenav>
 
         <div class="cont-div">
