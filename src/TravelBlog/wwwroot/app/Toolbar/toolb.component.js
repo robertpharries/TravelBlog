@@ -7,6 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 const core_1 = require("@angular/core");
 let ToolbarComponent = class ToolbarComponent {
+    constructor() {
+        this.checkLogin = (Boolean) => {
+            if (localStorage.getItem('currentUser') == null) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        };
+    }
 };
 ToolbarComponent = __decorate([
     core_1.Component({

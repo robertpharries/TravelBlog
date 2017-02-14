@@ -8,5 +8,11 @@
 })
 
 export class ToolbarComponent {
-
+    public checkLogin = (Boolean) => {
+        if (localStorage.getItem('currentUser') == null) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 }
