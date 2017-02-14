@@ -2,6 +2,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { Http, Headers, RequestOptions, Response } from '@angular/http';
+import { Observable } from 'rxjs/Rx';
+import 'rxjs/add/operator/switchMap';
 import { MaterialModule } from '@angular/material';
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers/index';
@@ -18,6 +21,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './Toolbar/toolb.component';
 import { AboutComponent } from './About/about.component';
 import { NextComponent } from './next.component';
+import { FetchDataComponent } from './SampleFetch/fetch';
 import { routes } from './app.router';
 
 @NgModule({
@@ -33,7 +37,7 @@ import { routes } from './app.router';
         AboutComponent,
         NextComponent,
         AppComponent,
-        AppComponent,
+        FetchDataComponent,
         AlertComponent,
         LoginComponent,
         RegisterComponent

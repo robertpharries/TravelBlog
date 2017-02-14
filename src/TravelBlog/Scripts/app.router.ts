@@ -15,7 +15,9 @@ export const router: Routes = [
     { path: 'register', component: RegisterComponent },
     { path: 'about', component: AboutComponent },
     { path: 'next', component: NextComponent, canActivate: [AuthGuard] },
-    { path: '**', redirectTo: '' }
+];
+
+export const AppRoutingProviders: any[] = [
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);

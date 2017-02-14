@@ -1,4 +1,5 @@
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\About\about.component.js
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\api.service.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.component.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\_helpers\fake-backend.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\_helpers\index.js
@@ -18,6 +19,7 @@ C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\register\
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\register\index.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\Toolbar\toolb.component.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\next.component.js
+C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\SampleFetch\fetch.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.router.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\app.module.js
 C:\Users\Robert\Documents\GitHub\TravelBlog\src\TravelBlog\wwwroot\app\main.js

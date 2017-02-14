@@ -11,6 +11,6 @@ exports.router = [
     { path: 'register', component: index_2.RegisterComponent },
     { path: 'about', component: about_component_1.AboutComponent },
     { path: 'next', component: next_component_1.NextComponent, canActivate: [index_3.AuthGuard] },
-    { path: '**', redirectTo: '' }
 ];
+exports.AppRoutingProviders = [];
 exports.routes = router_1.RouterModule.forRoot(exports.router);

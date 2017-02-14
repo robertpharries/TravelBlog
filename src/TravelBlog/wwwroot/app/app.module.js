@@ -9,6 +9,7 @@ const core_1 = require("@angular/core");
 const platform_browser_1 = require("@angular/platform-browser");
 const forms_1 = require("@angular/forms");
 const http_1 = require("@angular/http");
+require("rxjs/add/operator/switchMap");
 const material_1 = require("@angular/material");
 const index_1 = require("./_helpers/index");
 const testing_1 = require("@angular/http/testing");
@@ -22,6 +23,7 @@ const app_component_1 = require("./app.component");
 const toolb_component_1 = require("./Toolbar/toolb.component");
 const about_component_1 = require("./About/about.component");
 const next_component_1 = require("./next.component");
+const fetch_1 = require("./SampleFetch/fetch");
 const app_router_1 = require("./app.router");
 let AppModule = class AppModule {
 };
@@ -39,7 +41,7 @@ AppModule = __decorate([
             about_component_1.AboutComponent,
             next_component_1.NextComponent,
             app_component_1.AppComponent,
-            app_component_1.AppComponent,
+            fetch_1.FetchDataComponent,
             index_2.AlertComponent,
             index_5.LoginComponent,
             index_6.RegisterComponent
