@@ -11,7 +11,9 @@ let AppComponent = class AppComponent {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: '<h1>Travel Blog</h1>'
+        template: `
+    <my-tb>Loading toolbar</my-tb>
+`
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

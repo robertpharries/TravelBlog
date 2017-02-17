@@ -1,10 +1,10 @@
-﻿import {
-    Component
-} from '@angular/core';
+﻿import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>Travel Blog</h1>'
+    template: `
+    <my-tb>Loading toolbar</my-tb>
+`
 })
 
 export class AppComponent { }
